@@ -1,0 +1,350 @@
+<link rel="stylesheet" href="m.css">
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akıllı Ev Projesi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="m.css">
+    <script src="m.css"></script>
+</head>
+<body>
+    <header>
+        <h1>Akıllı Ev Projem</h1>
+        <nav>
+            <ul>
+                <li><a href="#malzemeler">Malzemeler</a></li>
+                <li><a href="#yapim">Yapım Aşamaları</a></li>
+                <li><a href="#calisma">Çalışma Prensibi</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="malzemeler">
+        <h2>Kullanılan Malzemeler</h2>
+        <ul>
+            <li>4xArduino Uno</li>
+            <li>1xMQ-6 Gaz Sensörü</li>
+            <li>1xAlev Sensörü</li>
+            <li>1xToprak & Nem Sensörü</li>
+            <li>1xYağmur Sensörü</li>
+            <li>1x2x16 LCD Ekran</li>
+            <li>1xDHT11 Sıcaklık & Nem Sensörü</li>
+            <li>13xLED & 13x330Ohm Direnç</li>
+            <li>2xBuzzer</li>
+            <li>2xServo Motorlar</li>
+            <li>1xLdr Sensör</li>
+            <div class="malzeme-image">
+                <img src="qqqq.png" alt="Kullanılan Malzemeler" />
+            </div>
+        </ul>
+    </section>
+    
+    <section id="yapim">
+        <h2>Yapım Aşamaları</h2>
+        <p> <li>1.Evin Tasarımını yaptık</li>
+        <li>2.Sensörleri nereye koyacağımıza karar verdik</li>
+        <li>3.Sensörleri yerleştirdik</li>
+        <li>4.Sensörlerin kablolarını çektik</li>
+        <li>5.4ADET Ardunio Uno kullandık</li>
+        <li>6. Kodları yazdık/KODLAR AŞAĞIDA/</li>
+        <li>7.PowerBank ile Güç verdik</li>
+        </p>
+    </section>
+    
+    <section id="calisma">
+        <h2>Çalışma Prensibi</h2>
+        <p>Akıllı ev projemizde, evin çeşitli alanlarındaki sensörler kullanılarak ortamın durumu sürekli olarak izlenir. Bu sensörler, evin içindeki sıcaklık, nem, gaz, toprak nemi, alev, yağmur gibi özellikleri algılayarak, Arduino ile veri toplar ve bu veriler işlenir.
+
+            Sensörler ve İşlevleri:
+            
+            Sıcaklık ve Nem Sensörleri (DHT11): Evdeki sıcaklık ve nem seviyeleri sürekli izlenir. Bu veriler evin ısısını otomatik olarak ayarlamak için kullanılır.
+            Gaz ve Alev Sensörleri (MQ-6, Alev Sensörü): Olası bir ürün veya gaz sızıntısı durumunda, sistem alarmı kullanan kullanıcıyı seçer.
+            Toprak ve Nem Sensörü: Bu sensörlü, bahçede veya iç mekan bitkilerinin nem seviyesi aralığı ve sulama sistemi devreye girer.
+            Yağmur Sensörü: Yağmur sensörü, dışarıdaki havayı izler ve yağmur dağılımının dış mekanlarında otomatik olarak koruma alır (bunlardan, çadırın kapanması).
+            Motor ve Servo Sistemleri: Evdeki asansör ve diğer hareketli parçalar, servo motorlar sayesinde kontrol edilir. Kullanıcılar, akıllı telefonları veya belirli bir kontrol paneli üzerinden bu motorları yönlendirebilir.
+            
+            Veri İşleme ve Kontrol: Arduino, tüm sensörlerden gelen verileri toplar ve analiz eder. Belirli bir eşik değer aşılırsa (örneğin, sıcaklık çok yükselirse veya gaz sızıntısı tespit edilirse), sistem alarmı verir ve ilgili önlemler alınır. Ayrıca evin içindeki ışıklar, fanlar ve diğer cihazlar da Arduino tarafından otomatik olarak kontrol edilir.
+            
+            Kullanıcı Etkileşimi: Ev sahipleri, akıllı ev sistemi bir mobil uygulama ya da web sitesi üzerinden kontrol edebilirler. Bu platformlar, evin çeşitli fonksiyonlarını uzaktan yönetmeyi sağlar, böylece kullanıcılar evdeki verilerinin saatlerini bile sistemi kontrol edebilirler.
+            
+            </p>
+    </section>
+    
+    <section id="galeri">
+      <h2>Proje Galerisi</h2>
+      <div class="gallery">
+          <img src="ev1.jpg" alt="Proje Görsel 1" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev2.jpg" alt="Proje Görsel 2" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev3.jpg" alt="Proje Görsel 3" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev4.jpg" alt="Proje Görsel 4" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev5.jpg" alt="Proje Görsel 5" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev6.jpg" alt="Proje Görsel 6" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev7.jpg" alt="Proje Görsel 7" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+          <img src="ev8.jpg" alt="Proje Görsel 8" style="width: 50%; max-width: 200px; height: auto; margin: 10px;">
+      </div>
+  </section>
+  
+    
+    
+    <section id="paylas">
+        <h2>KULLANDIĞIMIZ KODLAR /4</h2>
+        <p></p>
+        
+        <div class="code-block">
+            <h3>1. LDR Sensörü ile LED Kontrolü</h3>
+            <pre><code>
+    const int ldrPin = A0;  // LDR sensörü A0 pininde
+    const int ledPins[] = {2, 3, 4, 5, 6, 8};  // LED'lerin bağlı olduğu pinler
+    int ldrValue = 0;  // LDR değeri
+    
+    void setup() {
+      for (int i = 0; i < 6; i++) {
+        pinMode(ledPins[i], OUTPUT);
+      }
+      Serial.begin(9600);
+    }
+    
+    void loop() {
+      ldrValue = analogRead(ldrPin);
+      Serial.println(ldrValue);
+    
+      if (ldrValue > 100) {
+        for (int i = 0; i < 6; i++) {
+          digitalWrite(ledPins[i], HIGH);
+        }
+      } else {
+        for (int i = 0; i < 6; i++) {
+          digitalWrite(ledPins[i], LOW);
+        }
+      }
+      delay(100);
+    }
+            </code></pre>
+        </div>
+        
+        <div class="code-block">
+            <h3>2. Su Sensörü, DHT11 ve LCD Kontrolü</h3>
+            <pre><code>
+    #include <Wire.h>
+    #include <LiquidCrystal_I2C.h>
+    #include <DHT.h>
+    #include <Servo.h>
+    
+    #define DHTPIN 2
+    #define DHTTYPE DHT11
+    DHT dht(DHTPIN, DHTTYPE);
+    LiquidCrystal_I2C lcd(39, 16, 2);
+    #define WATER_SENSOR_PIN 4
+    #define SERVO_PIN 6
+    #define SOIL_SENSOR_PIN A0
+    #define SOIL_SENSOR_DIGITAL_PIN 3
+    #define BUZZER_PIN 9
+    
+    Servo myServo;
+    
+    void setup() {
+      Serial.begin(9600);
+      lcd.init();
+      lcd.backlight();
+      dht.begin();
+      myServo.attach(SERVO_PIN);
+      myServo.write(0);
+      pinMode(WATER_SENSOR_PIN, INPUT);
+      pinMode(BUZZER_PIN, OUTPUT);
+      pinMode(SOIL_SENSOR_DIGITAL_PIN, INPUT);
+      delay(3000);
+      lcd.clear();
+    }
+    
+    void loop() {
+      float humidity = dht.readHumidity();
+      float temperature = dht.readTemperature();
+      int waterValue = digitalRead(WATER_SENSOR_PIN);
+      int soilMoistureValue = analogRead(SOIL_SENSOR_PIN);
+      float soilMoisturePercent = map(soilMoistureValue, 0, 1023, 0, 100);
+      int soilMoistureDigital = digitalRead(SOIL_SENSOR_DIGITAL_PIN);
+    
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Isi: ");
+      lcd.print(temperature);
+      lcd.print("C");
+      lcd.setCursor(9, 0);
+      lcd.print("Nem: ");
+      lcd.print(humidity);
+      lcd.print("%");
+      lcd.setCursor(0, 1);
+      lcd.print("Toprak: ");
+      lcd.print(soilMoisturePercent);
+      lcd.print("%");
+    
+      if (waterValue == HIGH) {
+        lcd.setCursor(0, 1);
+        lcd.clear();
+        lcd.print("Yagmur Algilandi");
+        myServo.write(90);
+        tone(BUZZER_PIN, 1000);
+      }
+    
+      if (waterValue == LOW) {
+        myServo.write(0);
+        noTone(BUZZER_PIN);
+      }
+    
+      Serial.print("Isı: ");
+      Serial.print(temperature);
+      Serial.print(" C, Nem: ");
+      Serial.print(humidity);
+      Serial.print(" %, Toprak Nem: ");
+      Serial.print(soilMoisturePercent);
+      Serial.println(" %");
+    
+      if (soilMoisturePercent < 30 || soilMoistureDigital == HIGH) {
+        tone(BUZZER_PIN, 2000);
+      } else {
+        noTone(BUZZER_PIN);
+      }
+    
+      delay(2000);
+    }
+            </code></pre>
+        </div>
+        <div class="code-block">
+            <h3>3. Gaz,Alev,Buzzer Kodları</h3>
+            <pre><code>
+              #define gasSensorPin 3  // Gaz sensörü dijital pini
+              #define flameSensorPin 7 // Alev sensörü dijital pini
+              #define buzzerPin 9      // Buzzer pini
+              
+              void setup() {
+                pinMode(gasSensorPin, INPUT);
+                pinMode(flameSensorPin, INPUT);
+                pinMode(buzzerPin, OUTPUT);
+              }
+              
+              void loop() {
+                bool gasDetected = digitalRead(gasSensorPin) == LOW; // Gaz algılandı mı?
+                bool flameDetected = digitalRead(flameSensorPin) == LOW; // Alev algılandı mı?
+              
+                if (gasDetected || flameDetected) {
+                  for (int i = 0; i < 5; i++) {  // 5 kere bip sesi çıkar
+                    digitalWrite(buzzerPin, LOW);
+                    delay(200);
+                    digitalWrite(buzzerPin, HIGH);
+                    delay(200);
+                  }
+                } else {
+                  digitalWrite(buzzerPin, LOW);  // Tehlike yoksa sessiz
+                }
+              
+                delay(500);
+              }
+            </code></pre>
+        </div>
+        <div class="code-block">
+          <h3>4. Garaj için Servo Motor,Mesafe Sensörü,Ir kumanda</h3>
+          <pre><code>
+            #include <IRremote.h>
+              #include <Servo.h>
+              
+              const int recv_pin = 2;  // IR alıcı pini
+              IRrecv irrecv(recv_pin);
+              decode_results results;
+              Servo myservo;
+              
+              const int trigPin = 3;  // HC-SR04 Trig pin
+              const int echoPin = 4;  // HC-SR04 Echo pin
+              long duration;
+              int distance;
+              
+              bool servoState = false;  // Servo'nun açılıp kapanmadığını kontrol etmek için bir değişken
+              
+              void setup() {
+                myservo.attach(9);  // Servo motoru 9 numaralı pin'e bağla
+                irrecv.enableIRIn(); // IR alıcıyı başlat
+                pinMode(trigPin, OUTPUT); // Trig pini çıkış olarak ayarla
+                pinMode(echoPin, INPUT);  // Echo pini giriş olarak ayarla
+                Serial.begin(9600);  // Seri haberleşmeyi başlat
+              }
+              
+              void loop() {
+                // IR kumandasını kontrol et
+                if (irrecv.decode(&results)) {
+                  long int decCode = results.value;
+                  Serial.println(decCode, HEX); // Kumandadan gelen kodu ekrana yazdır
+              
+                  // Kumanda kodları ile servo'yu kontrol et
+                  if (decCode == 0xFF6897) {  // FF6897 kodu (Servo'yu açmak için)
+                    myservo.write(90);  // Servo'yu 90 dereceye ayarla
+                    servoState = true;  // Servo açıldı
+                    delay(1000);  // 1 saniye bekle
+                  }
+                  else if (decCode == 0xFFFFFFFF) {  // FFFFFFFF kodu (Servo'yu kapatmak için)
+                    myservo.write(0);  // Servo'yu 0 dereceye ayarla
+                    servoState = false;  // Servo kapalı
+                    delay(5000);  // 1 saniye bekle
+                  }
+              
+                  irrecv.resume();  // Bir sonraki sinyali al
+                }
+              
+                // Mesafe ölçümü
+                digitalWrite(trigPin, LOW);
+                delayMicroseconds(2);
+                digitalWrite(trigPin, HIGH);
+                delayMicroseconds(10);
+                digitalWrite(trigPin, LOW);
+                duration = pulseIn(echoPin, HIGH);
+                distance = duration * 0.034 / 2;  // Mesafeyi cm cinsinden hesapla
+              
+                Serial.print("Mesafe: ");
+                Serial.print(distance);
+                Serial.println(" cm");
+              
+                // Eğer mesafe 10 cm'nin altındaysa, servo açılır
+                if (distance < 10 && !servoState) {  // Eğer sensör mesafeyi 10 cm'nin altına indirdiyse ve servo kapalıysa
+                  myservo.write(90);  // Servo'yu 90 dereceye ayarla
+                  servoState = true;  // Servo'yu aç
+                  delay(1000);  // 1 saniye bekle
+                } 
+                // Eğer mesafe 10 cm'nin üstündeyse, servo kapanır
+                else if (distance >= 10 && servoState) {  // Eğer mesafe 10 cm'nin üstündeyse ve servo açık ise
+                  myservo.write(0);  // Servo'yu 0 dereceye ayarla
+                  servoState = false;  // Servo'yu kapalı duruma getir
+                  delay(1000);  // 1 saniye bekle
+                }
+              }
+          </code></pre>
+      </div>
+        <button class="copy-btn" onclick="copyCode()">Kodu Kopyala</button>
+        <button class="share-btn" onclick="shareCode()">Paylaş</button>
+    </section>
+    <section id="hazirlayanlar">
+        <h2>Hazırlayanlar</h2>
+        <p>Bu proje,11/Bilişim Öğrencileri Tarafından Hazırlanmıştır</p>
+        <ul>
+            <li>Mehmet Alan</li>
+            <li>Sadi Eren ÖZGEN</li>
+            <li>Kadirhan ŞAHİN</li>
+            <footer>
+                <p> Taraklı Çok Programlı Anadolu Lisesi</p>
+                <p>Bilişim Teknolojileri Öğretmenleri :Hakan KAYA</p>
+                <p>
+                    Sormak istediğiniz bir soru varsa 
+                    <a href="https://www.instagram.com/mehmettalnn7?igsh=MWp6NHFvNWdoOXJ3ZQ==" target="_blank">Instagram'dan ulaşabilirsiniz</a>.
+                </p>
+            </footer>
+            
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Akıllı Ev Projesi</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
